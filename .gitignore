@@ -130,3 +130,6 @@ dmypy.json
 
 # Ignore MacOS folder metadata files
 .DS_Store
+
+# Jetbrains IDE-related folders and metadata
+.idea
