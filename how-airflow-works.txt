@@ -1,0 +1,4 @@
+1. You create a DAG in the dags folder and wait 5 minutes by (default) to allow Scheduler to identify it.
+	1.1. In the case you make any changes to an existing DAG, you should normally wait about 30 seconds.
+2. The Sheduler runs the DAG, and for this it create DagRun with the RUNNING state, 
+then it takes the first task to execute and that task becomes a TaskInstance object. The TaskInstance has the state NONE and then SCHEDULED\
